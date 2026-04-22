@@ -1,0 +1,251 @@
+.hero h1 {
+  color: #ff4141;
+  font-size: 60px;
+}
+
+a , .theme_color {
+  color: #010c99;
+}
+
+.theme_color p, .theme_color div , .theme_color h6 {
+  font-weight: 900;
+}
+.custom_heading {
+  background: #ff4141;
+  border-radius: 5px;
+  padding: 15px 40px;
+  width: max-content;
+  font-size: 17px;
+}
+
+.button-lg {
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-weight: 700;
+}
+
+.yellow_circle {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 0;
+  top: 0;
+  background: #ff4141;
+  border-radius: 100%;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .yellow_circle {
+    left: unset;
+    right: 0;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .button-lg {
+    height: 40px;
+    font-size: 16px;
+    font-weight: 900;
+  }
+  
+  .hover_item1.icon img {
+    width: 90px;
+  }
+}
+
+
+/* .hover_item ::before, .hover_item .hov { */
+.hover_item {
+  /* content: ''; */
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* bottom: 0; */
+  /* z-index: -1; */
+  /* width: 50px;
+  height: 50px; */
+  border-radius: 20px;
+  /* background: #010c99; */
+  background: #ff4141;
+  color: #010c99;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover_item:hover{
+  transform: scale(1.4);
+}
+
+.hover_item1{
+  transition: transform 0.3s ease-in-out;
+}
+
+.hover_item1:hover{
+  transform: scale(1.4);
+}
+
+.hover_item1.icon img {
+  width: 70px;
+}
+
+
+.hover_item i::before{
+  position: relative;
+  z-index: 1;
+}
+
+.w-fit { width: fit-content; }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+
+  .mb-sm-10{
+    margin-bottom: 10px;
+  }
+}
+
+/* hover popup css */
+
+  .hover-popup {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 30%;
+    left: 30%;
+    width: 50ch;
+    margin: min(1rem, 20px);
+    font-size: .8rem;
+    background-color: #dbd9d9;
+    border-radius: 8px;
+    padding: 1.5em;
+    z-index: 42;
+    transform: scale(0);
+    transition: transform 200ms ease;
+    transform-origin: 8% -10px;
+    color: #010c99;
+    font-weight: 900;
+  }
+  
+  .hover-popup::before {
+    content: '';
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #dbd9d9;
+    left: -15px;
+    transform: rotate(-90deg);
+  }
+
+.hover-target:hover + .hover-popup, .hover-target:focus + .hover-popup, .hover-popup:hover {
+  transform: scale(1);
+}
+
+.socials li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+
+#myVideo {
+  width: 100vw;
+}
+
+.button-lg {
+  border-radius: 30px;
+  padding: 5px 20px;
+  font-weight: 700;
+}
+
+/* .yellow_circle {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 0;
+  top: 0;
+  background: #ff4141;
+  border-radius: 100%;
+  z-index: -1;
+} */
+
+
+@media (max-width: 991px) {
+  #myVideo {
+    /* width: auto; */
+    /* margin: 11.6483px 0px 0px -447.937px;
+    transform: translate3d(0px, -11.6483px, 0px); */
+  }
+
+  /* .hover_item {
+    position: unset;
+  } */
+
+  .hover-popup {
+    position: fixed !important;
+    left: 5% !important;
+    top: 20% !important;
+    width: 90% !important;
+    transform-origin: unset;
+  }
+
+  .hover-popup::before {
+    display: none;
+    content: '';
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #dbd9d9;
+    left: 50%;
+    transform: rotate(0deg);
+    top: -10px;
+  }
+  
+  .button-lg {
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .videoBanner .hero-content-wrapper {
+    /* margin-top: -275px; */
+  }
+}
+
+.videoBanner h2, .videoBanner h4 {
+  line-height: 0.9;
+}
+
+.info {
+  margin: 5px 0;
+}
+
+.footer-style-1 {
+  background: url('../img/footer/footer.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+.custom_border {
+  position: relative;
+  width: min-content;
+}
+
+.custom_border::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background: #ff4141;
+  transition: all 0.3s ease-out 0s;
+  left: 0;
+  /* bottom: 0px; */
+  bottom: -10px;
+  border-radius: 50px;
+}

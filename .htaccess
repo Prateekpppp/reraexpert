@@ -1,0 +1,7 @@
+# Disable directory indexing
+Options -Indexes
+    
+# Enable URL rewriting
+RewriteEngine On
+
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
