@@ -16,13 +16,6 @@
               <div class="row align-items-end">
                 <div class="col-lg-12">
                   <div class="hero-content-wrapper position-relative">
-                    <div class="position-relative z-1 text-end text-md-start">
-                      <div class="yellow_circle"></div>
-                      <!-- <h4 class="wow fadeInUp d-none" data-wow-delay=".2s">You're Using</h4> -->
-                      <h2 class="mb-1 wow fadeInUp fs-2 pr-50" data-wow-delay=".4s">Nuts &</h2>
-                      <h2 class="mb-0 wow fadeInUp" data-wow-delay=".4s">Bolts</h2>
-                      <p class="mb-50 mb-sm-10 wow fadeInUp app_color_green text-capitalize fw-bold fs-3" data-wow-delay=".6s">of any size</p>
-                    </div>
                     <div class="d-flex justify-content-center mt-50 pt-50 gap-5">
                         <a href="#catalogue" rel="nofollow" class="button button-lg radius-10 wow fadeInUp" data-wow-delay=".7s">Catalogue</a>
                         <a href="https://wa.me/<?= $contact_phone ?>" target="blank" class="button button-lg radius-10 wow fadeInUp" data-wow-delay=".7s">Whatsapp</a>

@@ -16,26 +16,19 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="d-flex flex-row align-items-center single-feature wow fadeInUp" data-wow-delay=".4s">
-                  <div class="icon hover_item1 d-flex align-items-center justify-content-center">
-                     <img src="assets/img/about/about2.png" alt="" srcset="">
-                  </div>
                   <div class="content mx-4">
-                    <!-- <h5 class="mb-25">Suman Industries is has a leagacy of 35+ years in Nut and Bolt Manufacture. We have distribution Pan India</h5> -->
-                    <p class="">Suman Industries is the developer for nuts & bolts of all variety under the GITA brand. We have been one of the most trusted producers of fastners for the past 30 years.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="d-flex flex-row align-items-center single-feature wow fadeInUp" data-wow-delay=".4s">
-                  <div class="icon hover_item1 d-flex align-items-center justify-content-center">
-                     <img src="assets/img/about/about1.png" alt="" srcset="">
-                  </div>
-                  <!-- <div class="icon hover_item1">
-                    <i class="lni lni-layers"></i>
-                  </div> -->
-                  <div class="content mx-4">
-                    <!-- <h5 class="mb-25">Suman Industries is has a leagacy of 35+ years in Nut and Bolt Manufacture. We have distribution Pan India</h5> -->
-                    <p class="">Our factory is Situated at Kalyani Industrial Area (West Bengal) and we have been producing top quality Fastners for the past 30 years. we have been working PAN India.</p>
+                    
+                    <p class="mb-4">
+                      The Real Estate (Regulation and Development) Act, 2016 (RERA) effectively became the governing real estate law in West Bengal in 2021.<br>
+                      This shift occurred after the Supreme Court of India struck down the state's own parallel legislation, <br>
+                      the West Bengal Housing Industry Regulation Act, 2017 (WBHIRA), on May 4, 2021.
+                    </p>
+                    <p class="mb-4">
+                      Under Section 3(1), promoters are legally mandated to register their real estate projects prior to initiating any sales. whereas, Section 9 stipulates that all real estate agents must obtain official registration before facilitating the buying or selling of any property.
+                    </p>
+                    <p class="mb-4">
+                      we at ‘the rera consultant’ assist in getting those pesky compliances sorted.
+                    </p>
                   </div>
                 </div>
               </div>

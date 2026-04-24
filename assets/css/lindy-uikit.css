@@ -342,7 +342,7 @@ p {
   justify-content: center;
   align-items: center;
   background: #ff4141;
-  color: #010c99;
+  color: #fff;
   border: 1px solid transparent;
   position: relative;
   z-index: 1;
@@ -389,8 +389,8 @@ p {
 }
 
 .button-lg {
-  height: 64px;
-  font-size: 20px;
+  height: 48px;
+  font-size: 25px;
   font-weight: 700;
 }
 

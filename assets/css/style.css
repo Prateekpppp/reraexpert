@@ -1,3 +1,9 @@
+body{
+  color: #010c99;
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
 .hero h1 {
   color: #ff4141;
   font-size: 60px;
@@ -5,6 +11,10 @@
 
 a , .theme_color {
   color: #010c99;
+}
+
+.theme_font {
+  font-size: 25px;
 }
 
 .theme_color p, .theme_color div , .theme_color h6 {
