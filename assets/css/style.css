@@ -13,6 +13,10 @@ a , .theme_color {
   color: #010c99;
 }
 
+.theme_color_secondary {
+  color: #ff4141;
+}
+
 .theme_font {
   font-size: 25px;
 }
@@ -20,12 +24,17 @@ a , .theme_color {
 .theme_color p, .theme_color div , .theme_color h6 {
   font-weight: 900;
 }
+
+.footer, .footer a, .footer p {
+  font-size: 18px;
+}
+
 .custom_heading {
-  background: #ff4141;
-  border-radius: 5px;
-  padding: 15px 40px;
-  width: max-content;
-  font-size: 17px;
+  /* background: #ff4141; */
+  /* border-radius: 5px; */
+  /* padding: 15px 40px; */
+  /* width: max-content; */
+  font-size: 25px;
 }
 
 .button-lg {
@@ -237,7 +246,8 @@ a , .theme_color {
 }
 
 .footer-style-1 {
-  background: url('../img/footer/footer.png');
+  /* background: url('../img/footer/footer.png'); */
+  background-color: #010c99;
   background-position: center center;
   background-size: cover;
 }

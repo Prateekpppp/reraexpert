@@ -3,33 +3,21 @@
     <footer class="footer footer-style-1 text-white">
       <div class="container">
         <div class="widget-wrapper">
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
+          <div class="logo">
+            <a class="text-white" href="/" style="font-size: 42px;"> THE R<span class="theme_color_secondary">e</span>RA expert </a>
+          </div>
+          <div class="row px-3">
+            <div class="col-md-6">
               <div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
-                <div class="logo p-2 px-3">
-                    <div class="d-flex align-items-center gap-1 rounded-4 bg-light fw-bold">
-                        <a href="index.php"> <img src="assets/img/logo/logo2.png" width="150px" alt=""> </a>
-                        <!-- <div>
-                            <span class="app_color_green">Suman</span> <br><span class="app_color_yellow">Industries</span>
-                        </div> -->
-                    </div>
-                </div>
-                <p class="desc">Address:  KALYANI INDUSTRIAL<br> ESTATE- PHASE-I, PLOT NO-P55A,, BLOCK-D,<br> KALYANI,  Nadia, West Bengal, 741235</p>
-                <!-- <ul class="socials">
-                  <li> <a href="#0"> <i class="lni lni-facebook-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-twitter-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-instagram-filled"></i> </a> </li>
-                  <li> <a href="#0"> <i class="lni lni-linkedin-original"></i> </a> </li>
-                </ul> -->
+                <p class="desc">Office Location : <br> 166/122 khadinamore, chinsurah, hoogly<br> above reliance smart bazar, <br>beside rk multiplex</p>
               </div>
             </div>
-            <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6 col-sm-6">
+            <div class="col-sm-6">
               <div class="footer-widget wow fadeInUp" data-wow-delay=".3s">
-                <h6>Quick Link</h6>
                 <ul class="links">
-                  <li> <a href="index.php">Home</a> </li>
-                  <li> <a href="products.php">Products</a> </li>
-                  <li> <a href="contact.php">Contact</a> </li>
+                  <li> <a href="mailto:contact@reraconsultant.com">email:  contact@reraconsultant.com</a> </li>
+                  <li> <a href="tel:8013395004">phone:  +91 8013395004</a> </li>
+                  <li> <a href="https://wa.me/8013395004">whatsapp:  +91 8013395004</a> </li>
                 </ul>
               </div>
             </div>

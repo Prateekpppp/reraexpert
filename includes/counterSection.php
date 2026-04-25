@@ -33,9 +33,9 @@ $counterData = [
             ?>
             <div class="col-md-3 col-sm-2">
                 <div class="d-flex flex-column">
-                    <img class="w-75 mx-auto mb-3" src="assets/img/about/<?= $arr['img'] ?>">
-                    <span class="fs-3"><?= $arr['count'] ?>+</span>
-                    <h4><?= $arr['head'] ?></h4>
+                    <img class="w-50 mx-auto mb-3" src="assets/img/about/<?= $arr['img'] ?>">
+                    <span class="fs-4"><?= $arr['count'] ?>+</span>
+                    <h4 class="fs-4"><?= $arr['head'] ?></h4>
                 </div>
             </div>
             <?php } ?>
