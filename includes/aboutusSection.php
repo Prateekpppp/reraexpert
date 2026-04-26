@@ -1,9 +1,11 @@
 
     <!-- ========================= feature style-2 start ========================= -->
-    <section id="services" class="feature-section feature-style-2 mt-5 pt-5">
+    <section id="services" class="feature-section feature-style-2">
       <div class="container">
-        <h3 class="mb-15 wow fadeInUp custom_heading" data-wow-delay=".2s">About Us</h3>
-        <div class="d-flex flex-row align-items-center single-feature wow fadeInUp" data-wow-delay=".4s">
+        <div class="d-flex">
+          <h3 class="mb-15 wow fadeInUp custom_heading" data-wow-delay=".2s">About Us</h3>
+        </div>
+        <div class="d-flex flex-row align-items-center wow fadeInUp" data-wow-delay=".4s">
           <div class="content">
             
             <p class="mb-4">

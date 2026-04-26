@@ -18,7 +18,7 @@
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
                     <ul id="nav2" class="navbar-nav ml-auto">
                       <li class="nav-item">
-                        <a class="page-scroll <?= ($current_url == 'index.php' || $current_url == '')? 'active':'' ?>" href="index.php">Home</a>
+                        <a class="page-scroll <?= ($current_url == 'index.php' || $current_url == '')? 'active':'' ?>" href="./">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll <?= $current_url == 'aboutus.php'? 'active':'' ?>" href="aboutus.php">About</a>
@@ -27,10 +27,10 @@
                         <a class="page-scroll <?= $current_url == 'contact.php'? 'active':'' ?>" href="contact.php">Contact</a>
                       </li>
                       <li class="nav-item">
-                        <a class="page-scroll <?= $current_url == 'reralaw.php'? 'active':'' ?>" href="products.php">Rera Law</a>
+                        <a class="page-scroll <?= $current_url == 'reralaw.php'? 'active':'' ?>" href="reralaw.php">Rera Law</a>
                       </li>
                       <li class="nav-item">
-                        <a href="https://wa.me/<?= $contact_phone ?>">Whatsapp :<?= $contact_phone ?></a>
+                        <a href="https://wa.me/<?= $contact_phone ?>" style="color:#29d349;">Whatsapp :<?= $contact_phone ?></a>
                       </li>
                     </ul>
                     <!-- <a href="tel:+91-6289163166" class="button button-sm radius-10 d-lg-flext">+91-6289163166</a> -->

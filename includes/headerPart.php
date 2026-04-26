@@ -9,7 +9,7 @@
     <?php
 
       $pageHeroSection = [
-        'aboutus.php',
+        // 'aboutus.php',
       ];
 
       include_once('includes/header.php');

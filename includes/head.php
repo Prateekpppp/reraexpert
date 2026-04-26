@@ -1,8 +1,8 @@
 <?php
 
     error_reporting(0);
-    $contact_mail = "sales@sumanindustry.com";
-    $contact_phone = "8013395004";
+    $contact_mail = "contact@reraconsultant.com";
+    $contact_phone = "6289163166";
     $current_url = explode('/',$_SERVER['REQUEST_URI']);
     $current_url = $current_url[count($current_url) - 1];
     // die($current_url);

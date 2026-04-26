@@ -2,6 +2,26 @@ body{
   color: #010c99;
   letter-spacing: 0;
   line-height: 1.4;
+  font-family: "canva_sans", sans-serif;
+}
+
+/* ============================= 
+    TYPOGRAPHY CSS
+================================ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0;
+  font-family: "canva_sans", sans-serif;
 }
 
 .hero h1 {
@@ -34,7 +54,28 @@ a , .theme_color {
   /* border-radius: 5px; */
   /* padding: 15px 40px; */
   /* width: max-content; */
+  position: relative;
   font-size: 25px;
+  /* border-bottom: 20px solid transparent;
+  border-image: url('../img/border.png') 30 stretch; */
+}
+
+.custom_heading::after {
+  content: "";
+  position: absolute;
+  top: 93%;
+  right: 0;     
+  max-width: 105px;
+  min-width: 105px;
+  height: 10px;
+  background: url('../img/border.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+
+h1.custom_heading::after {
+  right: 40px;     
 }
 
 .button-lg {
@@ -268,4 +309,47 @@ a , .theme_color {
   /* bottom: 0px; */
   bottom: -10px;
   border-radius: 50px;
+}
+
+.max-vh-75 {
+  height: 75vh;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  /* 50% {
+    transform: translateY(0);
+  }
+  75% {
+    transform: translateY(100%);
+  } */
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.row.overflow-y-scroll .p-2 {
+  /* animation: scrolling 10s linear infinite; */
+}
+
+.header.header-2 .navbar-toggler {
+  padding: 0;
+  border: 2px solid #010c99;
+  padding: 6px;
+  border-radius: 50px;
+}
+
+.header.header-2 .navbar-toggler .toggler-icon {
+  background-color: #010c99;
+  width: 28px;
+  height: 3px;
+}
+
+.header.header-2 .navbar-toggler.active .toggler-icon:nth-of-type(1) {
+  top: 9px;
 }
