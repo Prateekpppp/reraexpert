@@ -18,7 +18,7 @@
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
                     <ul id="nav2" class="navbar-nav ml-auto">
                       <li class="nav-item">
-                        <a class="page-scroll <?= ($current_url == 'index.php' || $current_url == '')? 'active':'' ?>" href="./">Home</a>
+                        <a class="page-scroll <?= ($current_url == 'index.php' || $current_url == '')? 'active':'' ?>" href="/">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll <?= $current_url == 'aboutus.php'? 'active':'' ?>" href="aboutus.php">About</a>
@@ -28,6 +28,9 @@
                       </li>
                       <li class="nav-item">
                         <a class="page-scroll <?= $current_url == 'reralaw.php'? 'active':'' ?>" href="reralaw.php">Rera Law</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="page-scroll <?= $current_url == 'wbrera_order.php'? 'active':'' ?>" href="wbrera_order.php">Wbrera orders</a>
                       </li>
                       <li class="nav-item">
                         <a href="https://wa.me/<?= $contact_phone ?>" style="color:#29d349;">Whatsapp :<?= $contact_phone ?></a>

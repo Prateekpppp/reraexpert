@@ -56,7 +56,7 @@
           <div class="col-lg-6 order-first order-lg-last">
             <div class="left-wrapper">
               <div class="section-title mb-40">
-                <h6 class="mb-15 custom_heading">Connect With Us</h6>
+                <h6 class="mb-15">Connect With Us</h6>
                 <div class="single-item">
                     <!-- <div class="icon">
                         <i class="lni lni-phone"></i>
@@ -67,9 +67,7 @@
                 </div>
                 <div class="ml-5 pl-5 mb-3">
                     <ul>
-                        <li><a class="app_color_green" href="tel:+91-8013395004">+91-8013395004</a></li>
-                        <li><a class="app_color_green" href="tel:+91-9831478795">+91-9831478795</a></li>
-                        <li><a class="app_color_green" href="tel:+91-6289163166">+91-6289163166</a></li>
+                        <li><a class="app_color_green" href="tel:+91 <?= $contact_phone ?>">+91 <?= $contact_phone ?></a></li>
                     </ul>
                 </div>
                 <div class="single-item">
@@ -91,7 +89,7 @@
           <div class="col-lg-6 order-first order-lg-last">
             <div class="left-wrapper">
               <div class="section-title mb-40">
-                <h6 class="mb-15 custom_heading">Let Us Connect With You</h6>
+                <h6 class="mb-15">Let Us Connect With You</h6>
                     <div class="contact-form-wrapper">
                     <!-- <form action="assets/php/contact.php" method="POST"> -->
                       <form onsubmit="return sendToWhatsApp()">

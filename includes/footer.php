@@ -16,8 +16,8 @@
               <div class="footer-widget wow fadeInUp" data-wow-delay=".3s">
                 <ul class="links">
                   <li> <a href="mailto:contact@reraconsultant.com">email:  contact@reraconsultant.com</a> </li>
-                  <li> <a href="tel:8013395004">phone:  +91 8013395004</a> </li>
-                  <li> <a href="https://wa.me/8013395004">whatsapp:  +91 8013395004</a> </li>
+                  <li> <a href="tel:<?= $contact_phone ?>">phone:  +91 <?= $contact_phone ?></a> </li>
+                  <li> <a href="https://wa.me/<?= $contact_phone ?>">whatsapp:  +91 <?= $contact_phone ?></a> </li>
                 </ul>
               </div>
             </div>

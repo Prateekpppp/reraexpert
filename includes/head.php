@@ -13,10 +13,11 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Suman Industries</title>
-    <meta name="description" content="" />
+    <title><?= isset($title) ? $title : "WB RERA Consultants | WBRERA Advisors | Project Registration in West Bengal - The RERA Expert" ?></title>
+    <meta name="description" content="<?= isset($description) ? $description : "Your WBRERA / RERA compliance, handled end to end. Whether you're a developer registering a new project, an agent getting registered, or managing project extensions and quarterly filings — we take care of it all, so you can focus on closing deals.." ?>" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- ========================= CSS here ========================= -->

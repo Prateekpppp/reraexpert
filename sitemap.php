@@ -1,5 +1,5 @@
 <?php
-$website = "https://sumanindustry.com/";
+$website = "https://thereraexpert.com/";
 header("Content-Type: application/xml; charset=utf-8");
 
 echo '<?xml version="1.0" encoding="UTF-8"?>';
@@ -15,10 +15,10 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 
 $pages = [
     "index.php",
-    "products.php",
     "contact.php",
     "aboutus.php",
-    "certificate.php",
+    "reralaw.php",
+    "wbrera_order.php",
 ];
 
 foreach ($pages as $page) {
