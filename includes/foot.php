@@ -6,10 +6,10 @@
 
     <!-- ========================= JS here ========================= -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="<?= $website ?>assets/js/bootstrap.5.0.0.alpha-2-min.js"></script>
+    <script src="<?= $website ?>assets/js/count-up.min.js"></script>
+    <script src="<?= $website ?>assets/js/wow.min.js"></script>
+    <script src="<?= $website ?>assets/js/main.js"></script>
 
     <?php include_once('includes/script.php'); ?>
   </body>

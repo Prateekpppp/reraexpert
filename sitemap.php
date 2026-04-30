@@ -19,6 +19,8 @@ $pages = [
     "aboutus.php",
     "reralaw.php",
     "wbrera_order.php",
+    "blogs.php",
+    "blogs/rera-registration-requirements-and-exemptions-to-registration.php",
 ];
 
 foreach ($pages as $page) {

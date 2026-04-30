@@ -1,4 +1,30 @@
 
+<?php 
+  
+  $data = [
+      [
+          'title'=>'About',
+          'link'=>'aboutus.php',
+      ],
+      [
+          'title'=>'Contact',
+          'link'=>'contact.php',
+      ],
+      [
+          'title'=>'Rera Law',
+          'link'=>'reralaw.php',
+      ],
+      [
+          'title'=>'Wbrera Orders',
+          'link'=>'wbrera_order.php',
+      ],
+      [
+          'title'=>'Blogs',
+          'link'=>'blogs.php',
+      ],
+];
+
+?>
       <!-- ========================= header-2 start ========================= -->
       <header class="header header-2">
         <div class="navbar-area">
@@ -7,7 +33,7 @@
               <div class="col-lg-12">
                 <nav class="navbar navbar-expand-lg">
                   <a class="navbar-brand" href="index.php">
-                    <img src="assets/img/logo/logo2.png" width="150px" alt="Logo" />
+                    <img src="<?= $website ?>assets/img/logo/logo2.png" width="150px" alt="Logo" />
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon"></span>
@@ -18,20 +44,15 @@
                   <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent2">
                     <ul id="nav2" class="navbar-nav ml-auto">
                       <li class="nav-item">
-                        <a class="page-scroll <?= ($current_url == 'index.php' || $current_url == '')? 'active':'' ?>" href="/">Home</a>
+                        <a class="page-scroll <?= ($current_url == 'index.php' || $current_url == '')? 'active':'' ?>" href="<?= $website ?>">Home</a>
                       </li>
+                      <?php
+                          foreach($data as $arr){
+                      ?>
                       <li class="nav-item">
-                        <a class="page-scroll <?= $current_url == 'aboutus.php'? 'active':'' ?>" href="aboutus.php">About</a>
+                        <a class="page-scroll <?= $current_url == $arr['link']? 'active':'' ?>" href="<?= $website.$arr['link'] ?>"><?= $arr['title'] ?></a>
                       </li>
-                      <li class="nav-item">
-                        <a class="page-scroll <?= $current_url == 'contact.php'? 'active':'' ?>" href="contact.php">Contact</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="page-scroll <?= $current_url == 'reralaw.php'? 'active':'' ?>" href="reralaw.php">Rera Law</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="page-scroll <?= $current_url == 'wbrera_order.php'? 'active':'' ?>" href="wbrera_order.php">Wbrera orders</a>
-                      </li>
+                      <?php } ?>
                       <li class="nav-item">
                         <a href="https://wa.me/<?= $contact_phone ?>" style="color:#29d349;">Whatsapp :<?= $contact_phone ?></a>
                       </li>

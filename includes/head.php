@@ -1,6 +1,11 @@
 <?php
 
     error_reporting(0);
+    if(!str_contains($_SERVER['HTTP_HOST'],'localhost')){
+      $website = "https://thereraexpert.com/";
+    } else{
+      $website = "http://localhost/reraexpert/";
+    }
     $contact_mail = "contact@reraconsultant.com";
     $contact_phone = "6289163166";
     $current_url = explode('/',$_SERVER['REQUEST_URI']);
@@ -17,14 +22,14 @@
     <meta name="description" content="<?= isset($description) ? $description : "Your WBRERA / RERA compliance, handled end to end. Whether you're a developer registering a new project, an agent getting registered, or managing project extensions and quarterly filings — we take care of it all, so you can focus on closing deals.." ?>" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="<?= $website ?>assets/favicon.ico">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-2.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css"/>
-    <link rel="stylesheet" href="assets/css/animate.css"/>
-    <link rel="stylesheet" href="assets/css/lindy-uikit.css"/>
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" href="<?= $website ?>assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="<?= $website ?>assets/css/bootstrap-5.0.0-alpha-2.min.css" />
+    <link rel="stylesheet" href="<?= $website ?>assets/css/LineIcons.2.0.css"/>
+    <link rel="stylesheet" href="<?= $website ?>assets/css/animate.css"/>
+    <link rel="stylesheet" href="<?= $website ?>assets/css/lindy-uikit.css"/>
+    <link rel="stylesheet" href="<?= $website ?>assets/css/style.css"/>
   </head>

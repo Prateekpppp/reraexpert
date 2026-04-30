@@ -1,7 +1,7 @@
 
   <body>
 <?php
-  include_once('includes/preloader.php');
+  include_once('preloader.php');
 ?>
     <!-- ========================= hero-section-wrapper-2 start ========================= -->
     <section id="home" class="hero-section-wrapper-2">
@@ -12,11 +12,11 @@
         // 'aboutus.php',
       ];
 
-      include_once('includes/header.php');
+      include_once('header.php');
       if($current_url == 'index.php' || $current_url == ''){
-          include_once('includes/bannerSection.php');
+          include_once('bannerSection.php');
       } else if(in_array($current_url,$pageHeroSection)){
-        include_once('includes/pageHeroSection.php');
+        include_once('pageHeroSection.php');
       }
     ?>
     </section>

@@ -15,7 +15,7 @@
             <div class="col-sm-6">
               <div class="footer-widget wow fadeInUp" data-wow-delay=".3s">
                 <ul class="links">
-                  <li> <a href="mailto:contact@reraconsultant.com">email:  contact@reraconsultant.com</a> </li>
+                  <li> <a href="mailto:<?= $contact_mail ?>">email:  <?= $contact_mail ?></a> </li>
                   <li> <a href="tel:<?= $contact_phone ?>">phone:  +91 <?= $contact_phone ?></a> </li>
                   <li> <a href="https://wa.me/<?= $contact_phone ?>">whatsapp:  +91 <?= $contact_phone ?></a> </li>
                 </ul>
