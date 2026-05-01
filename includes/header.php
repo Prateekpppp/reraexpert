@@ -19,6 +19,10 @@
           'link'=>'wbrera_order.php',
       ],
       [
+          'title'=>'Tools',
+          'link'=>'#',
+      ],
+      [
           'title'=>'Blogs',
           'link'=>'blogs.php',
       ],
@@ -35,6 +39,7 @@
                   <a class="navbar-brand" href="index.php">
                     <img src="<?= $website ?>assets/img/logo/logo2.png" width="150px" alt="Logo" />
                   </a>
+                  <a class="button button_whatsapp button-lg" href="https://wa.me/<?= $contact_phone ?>" onclick="gtag('event', 'call_click');">Whatsapp</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>
@@ -54,7 +59,7 @@
                       </li>
                       <?php } ?>
                       <li class="nav-item">
-                        <a href="https://wa.me/<?= $contact_phone ?>" style="color:#29d349;">Whatsapp :<?= $contact_phone ?></a>
+                        <a href="https://wa.me/<?= $contact_phone ?>" onclick="gtag('event', 'call_click');" style="color:#29d349;">Whatsapp :+91 <?= $contact_phone ?></a>
                       </li>
                     </ul>
                     <!-- <a href="tel:+91-6289163166" class="button button-sm radius-10 d-lg-flext">+91-6289163166</a> -->

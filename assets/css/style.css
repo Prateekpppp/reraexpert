@@ -81,7 +81,11 @@ h1.custom_heading::after {
 .button-lg {
   border-radius: 30px;
   padding: 5px 20px;
-  font-weight: 700;
+  font-weight: 300;
+}
+
+.button_whatsapp {
+  background: #29d349 !important;
 }
 
 .yellow_circle {
@@ -107,7 +111,7 @@ h1.custom_heading::after {
   .button-lg {
     height: 40px;
     font-size: 16px;
-    font-weight: 900;
+    /* font-weight: 900; */
   }
   
   .hover_item1.icon img {
@@ -222,7 +226,7 @@ h1.custom_heading::after {
 .button-lg {
   border-radius: 30px;
   padding: 5px 20px;
-  font-weight: 700;
+  /* font-weight: 700; */
 }
 
 /* .yellow_circle {

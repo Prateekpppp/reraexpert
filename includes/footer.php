@@ -17,7 +17,7 @@
                 <ul class="links">
                   <li> <a href="mailto:<?= $contact_mail ?>">email:  <?= $contact_mail ?></a> </li>
                   <li> <a href="tel:<?= $contact_phone ?>">phone:  +91 <?= $contact_phone ?></a> </li>
-                  <li> <a href="https://wa.me/<?= $contact_phone ?>">whatsapp:  +91 <?= $contact_phone ?></a> </li>
+                  <li> <a href="https://wa.me/<?= $contact_phone ?>" onclick="gtag('event', 'call_click');">whatsapp:  +91 <?= $contact_phone ?></a> </li>
                 </ul>
               </div>
             </div>

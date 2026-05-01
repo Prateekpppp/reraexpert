@@ -21,6 +21,7 @@ $pages = [
     "wbrera_order.php",
     "blogs.php",
     "blogs/rera-registration-requirements-and-exemptions-to-registration.php",
+    "blogs/documents-for-rera-registration.php",
 ];
 
 foreach ($pages as $page) {

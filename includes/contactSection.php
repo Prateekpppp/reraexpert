@@ -131,7 +131,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="form-button">
-                            <button type="submit" class="button radius-10">Submit <i class="lni lni-telegram-original"></i> </button>
+                            <button type="submit" class="button radius-10" onclick="gtag('event', 'call_click');">Submit <i class="lni lni-telegram-original"></i> </button>
                             </div>
                         </div>
                         </div>

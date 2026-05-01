@@ -6,8 +6,8 @@
     } else{
       $website = "http://localhost/reraexpert/";
     }
-    $contact_mail = "contact@reraconsultant.com";
-    $contact_phone = "6289163166";
+    $contact_mail = "contact@thereraexpert.com";
+    $contact_phone = "9147714689";
     $current_url = explode('/',$_SERVER['REQUEST_URI']);
     $current_url = $current_url[count($current_url) - 1];
     // die($current_url);
@@ -32,4 +32,25 @@
     <link rel="stylesheet" href="<?= $website ?>assets/css/animate.css"/>
     <link rel="stylesheet" href="<?= $website ?>assets/css/lindy-uikit.css"/>
     <link rel="stylesheet" href="<?= $website ?>assets/css/style.css"/>
+
+    <?php 
+      if(str_contains($_SERVER['REQUEST_URI'],'/blogs')){
+    ?>
+    <style>
+      .blog h1,
+      .blog h2,
+      .blog h3,
+      .blog h4,
+      .blog h5,
+      .blog h6,
+      .blog p {
+        font-family: sans-serif;
+        font-weight: 700;
+      }
+      .blog {
+        font-family: sans-serif;
+      }
+    </style>
+    <?php } ?>
+
   </head>

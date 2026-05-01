@@ -4,15 +4,15 @@
   include_once('../includes/headerPart.php');
   
 ?>
-    <div class="container my-5">
+    <div class="container my-5 blog">
         
-        <h1 class="text-center my-3 fs-1 theme_color_secondary">
+        <h1 class="my-3 fs-1 theme_color_secondary">
             RERA Registration requirements and exemptions to registration
         </h1>
 
         <p>Section 3(1) mandates that the promoter should get his project registered under RERA law. Without the registry it is not permissible to market or sell any plot, apartment or building. The word apartment has been described in section 2(e) as a separate unit intended to be used for residential or commercial purpose. Hence even though a Real Estate project only contains commercial units(be it office, godown etc) ,if the intention is to sell it to another person then in that case registration is to be taken.</p>
 
-        <div class="mx-auto w-75 my-3">
+        <!-- <div class="mx-auto w-75 my-3">
             <div class="mt-3">
                 <h2 class="theme_color_secondary d-inline fs-4">
                     Prior registration of real estate project with Real Estate Regulatory Authority.—(1)
@@ -44,6 +44,10 @@
                 </h2>
                 <span>For the purpose of this section, where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately.</span>
             </div>
+        </div> -->
+
+        <div class="mx-auto w-75 my-3">
+            <img src="<?= $website ?>assets/img/blogs/section-2(e).png" alt="" class="w-100">
         </div>
 
         <p>There are exceptions to this rule. As Section 3(2) states that in case of Real estate project not exceeding 500 sqft or having less than 8 apartments, registration is not required.</p>
