@@ -7,12 +7,12 @@ include_once('../includes/headerPart.php');
 <div class="container my-5 blog">
 
     <h1 class="my-3 fs-1 theme_color_secondary">
-        Documents for RERA Registration
+        <?= $title ?>
     </h1>
 
     <p class="mb-2">List of Documents required for RERA Registration :</p>
 
-    <table>
+    <table class="table table-bordered">
         <thead>
             <tr>
                 <th><strong><h5 class="theme_color_secondary">Plot Registration</h5></strong></th>
@@ -139,7 +139,7 @@ include_once('../includes/headerPart.php');
         </tbody>
     </table>
 
-    <p class="theme_color_secondary mt-4">
+    <p class="mt-4">
         This is where The Rera Expert comes into the picture. We handle everything Project registration from start to end.
     </p>
 

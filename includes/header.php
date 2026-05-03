@@ -39,7 +39,7 @@
                   <a class="navbar-brand" href="index.php">
                     <img src="<?= $website ?>assets/img/logo/logo2.png" width="150px" alt="Logo" />
                   </a>
-                  <a class="button button_whatsapp button-lg" href="https://wa.me/<?= $contact_phone ?>" onclick="gtag('event', 'call_click');">Whatsapp</a>
+                  <a class="button d-lg-none button_whatsapp button-lg" href="https://wa.me/<?= $contact_phone ?>" onclick="gtag('event', 'call_click');">Whatsapp</a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon"></span>
                     <span class="toggler-icon"></span>

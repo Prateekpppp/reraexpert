@@ -22,6 +22,8 @@ $pages = [
     "blogs.php",
     "blogs/rera-registration-requirements-and-exemptions-to-registration.php",
     "blogs/documents-for-rera-registration.php",
+    "fees-for-rera-project-plot-registration.php",
+    "fees-for-agent-consultant-registration-under-rera.php",
 ];
 
 foreach ($pages as $page) {

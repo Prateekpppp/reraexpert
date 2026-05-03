@@ -5,6 +5,14 @@ body{
   font-family: "canva_sans", sans-serif;
 }
 
+table, td {
+  color: #010c99 !important;
+}
+
+th {
+  vertical-align: middle;
+}
+
 /* ============================= 
     TYPOGRAPHY CSS
 ================================ */
@@ -356,4 +364,9 @@ h1.custom_heading::after {
 
 .header.header-2 .navbar-toggler.active .toggler-icon:nth-of-type(1) {
   top: 9px;
+}
+
+.blogs img {
+  max-height: 250px;
+  min-height: 250px;
 }

@@ -37,18 +37,19 @@
       if(str_contains($_SERVER['REQUEST_URI'],'/blogs')){
     ?>
     <style>
-      .blog h1,
-      .blog h2,
-      .blog h3,
-      .blog h4,
-      .blog h5,
-      .blog h6,
-      .blog p {
-        font-family: sans-serif;
-        font-weight: 700;
+      
+
+      .blog, .blogs {
+        
+        *,h1,h2,h3,h4,h5,h6,p {
+          font-family: sans-serif;
+          font-weight: 700;
+          /* line-height: 0.9; */
+        }
       }
-      .blog {
+      .blogs {
         font-family: sans-serif;
+        padding: 7px;
       }
     </style>
     <?php } ?>

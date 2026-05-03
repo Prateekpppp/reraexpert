@@ -3,55 +3,6 @@
     <section id="contact" class="contact-section contact-style-6">
       <div class="container">
         <div class="row">
-          <!-- <div class="col-lg-7 d-none">
-            <div class="contact-form-wrapper">
-              <form action="assets/php/contact.php" method="POST">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="single-input">
-                      <label for="name">Name</label>
-                      <input type="text" id="name" name="name" class="form-input" placeholder="Name">
-                      <i class="lni lni-user"></i>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="single-input">
-                      <label for="email">Email</label>
-                      <input type="email" id="email" name="email" class="form-input" placeholder="Email">
-                      <i class="lni lni-envelope"></i>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="single-input">
-                      <label for="number">Number</label>
-                      <input type="text" id="number" name="number" class="form-input" placeholder="Number">
-                      <i class="lni lni-phone"></i>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="single-input">
-                      <label for="subject">Subject</label>
-                      <input type="text" id="subject" name="subject" class="form-input" placeholder="Subject">
-                      <i class="lni lni-text-format"></i>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="single-input">
-                      <label for="message">Message</label>
-                      <textarea name="message" id="message" class="form-input" placeholder="Message" rows="6"></textarea>
-                      <i class="lni lni-comments-alt"></i>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-button">
-                      <button type="submit" class="button radius-10">Submit <i class="lni lni-telegram-original"></i> </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-
-          </div> -->
 
           <div class="col-lg-6 order-first order-lg-last">
             <div class="left-wrapper">
@@ -67,7 +18,7 @@
                 </div>
                 <div class="ml-5 pl-5 mb-3">
                     <ul>
-                        <li><a class="app_color_green" href="tel:+91 <?= $contact_phone ?>">+91 <?= $contact_phone ?></a></li>
+                        <li><a class="app_color_green" onclick="gtag('event', 'call_click');" href="tel:+91 <?= $contact_phone ?>">+91 <?= $contact_phone ?></a></li>
                     </ul>
                 </div>
                 <div class="single-item">
@@ -80,7 +31,7 @@
                 </div>
                 <div class="ml-5 pl-5">
                     <ul>
-                        <li><a class="app_color_green" href="mailto:<?= $contact_mail ?>"><?= $contact_mail ?></a></li>
+                        <li><a class="app_color_green" onclick="gtag('event', 'call_click');" href="mailto:<?= $contact_mail ?>"><?= $contact_mail ?></a></li>
                     </ul>
                 </div>
               </div>
